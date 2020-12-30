@@ -2,3 +2,10 @@
   text-align: center;
 }
 
+:root {
+  --color-primary: white;
+}
+
+html {
+  background: var(--color-primary);
+}
