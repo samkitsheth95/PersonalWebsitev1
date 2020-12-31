@@ -1,9 +1,32 @@
 .App {
-  text-align: center;
+  background: var(--color-primary);
+  color: var(--font-color);
+  font-family: 'Roboto', sans-serif;
 }
 
 :root {
   --color-primary: white;
+  --font-color: #444452;
+}
+
+.App .buttonsunmoon {
+  float: right;
+  margin-top: 20px;
+  margin-bottom: 20PX;
+}
+
+.App .switch {
+  margin: 10px;
+  height: 25px;
+  width: 45px;
+}
+
+.App .head {
+  height: 100px;
+}
+
+.App .sqq {
+  display: inline;
 }
 
 html {
