@@ -12,18 +12,26 @@
 .App .buttonsunmoon {
   float: right;
   margin-top: 20px;
-  margin-bottom: 20PX;
 }
 
-.App .switch {
-  margin: 10px;
+.App .form-switch .switch {
   height: 25px;
   width: 45px;
 }
 
 .App .head {
-  height: 100px;
+  height: 120px;
 }
+
+.App .moon {
+ margin: 5px 30px 0px 10px;
+ /* margin-right: 30px; */
+}
+
+.App .sun {
+  margin: 5px 10px 0px 0px;
+  /* margin-right: 10px; */
+ }
 
 .App .sqq {
   display: inline;
